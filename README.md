@@ -46,13 +46,28 @@ In English:
 PNG、JPEG、GIF、WebP、HEIC、AVIF、TIFF、BMP、ICO、ICNS、JPEG 2000、TGA、PSD、各社 RAW、SVG など、
 macOS が読める画像全般。GIF・APNG・WebP のアニメーションも再生します。
 
-## ライセンスと免責 / License and disclaimer
+## 使用許諾・免責事項・プライバシー / Terms, disclaimer and privacy
 
 Mirue は無料でダウンロードして使えます。オープンソースではありません: © 2026 Ultrawarp, all rights reserved.
-利用の条件と免責は [LICENSE.md](LICENSE.md) にあります。
+
+- **使用許諾**: [TERMS.md](TERMS.md) — 使ってよい範囲と、してはいけないこと
+- **免責事項**: Mirue は現状のまま無償で提供され、動作などについての保証はありません。使ったこと、使えなかったことによる損害（データの消失を含みます）について、作者は責任を負いません。詳しくは使用許諾の第5条・第6条をご覧ください
+- **プライバシーポリシー**: [PRIVACY.md](PRIVACY.md) — 個人情報は集めず、外部とも通信しません
 
 Mirue is free to download and use. It is not open source: © 2026 Ultrawarp, all rights reserved.
-The conditions of use, including the disclaimer of warranty, are in [LICENSE.md](LICENSE.md).
+
+- **Licence terms**: [TERMS.en.md](TERMS.en.md) — what you may and may not do
+- **Disclaimer**: Mirue is provided as it is, free of charge and without warranty of any kind. The author is not
+  liable for any damage (including loss of data) caused by using, or being unable to use, it. See sections 5
+  and 6 of the licence terms
+- **Privacy policy**: [PRIVACY.en.md](PRIVACY.en.md) — no personal information is collected, and the app does not
+  use the network
+
+[LICENSE.md](LICENSE.md) は使用許諾の要約です / summarises the licence terms.
+
+## お問い合わせ / Contact
+
+support@ultrawarp.jp
 
 このリポジトリは配布専用で、ソースコードは含みません。
 This repository is for distribution only and does not contain source code.

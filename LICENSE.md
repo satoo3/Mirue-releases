@@ -12,6 +12,10 @@ You may not:
   https://github.com/satoo3/Mirue-releases);
 - modify, decompile or reverse engineer the Software, except as far as the law allows despite this term.
 
+This is a summary. The full conditions of use are in the licence terms: [TERMS.en.md](TERMS.en.md)
+([日本語](TERMS.md)). How the app handles information is in the privacy policy: [PRIVACY.en.md](PRIVACY.en.md)
+([日本語](PRIVACY.md)).
+
 ## Disclaimer of warranty
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
