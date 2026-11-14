@@ -1,58 +1,48 @@
 # Mirue
 
-トラックパッドで気持ちよく操作できる、Mac 用の画像ビューワです。
-画像は枠のない「浮いた 1 枚」として表示され、ピンチや回転に合わせてウィンドウごと大きさが変わります。無料です。
+[日本語](README.ja.md)
+
+<img src="icon.png" width="96" alt="Mirue icon">
 
 A trackpad-friendly image viewer for the Mac. Each image floats as a frameless sheet, and the window follows
-as you pinch and rotate. Free. (The menus are in Japanese.)
+as you pinch and rotate. Free.
 
-## ダウンロード / Download
-
-1. [最新のリリース](https://github.com/satoo3/Mirue-releases/releases/latest)から `Mirue-<バージョン>-mac.dmg` をダウンロードして開きます。
-2. Mirue を「アプリケーション」フォルダへドラッグし、そこから開きます。
-
-In English:
+## Download
 
 1. Download `Mirue-<version>-mac.dmg` from the [latest release](https://github.com/satoo3/Mirue-releases/releases/latest) and open it.
 2. Drag Mirue to the Applications folder, then open it from there.
 
-動作環境 / Requirements:
+- macOS 12 Monterey or later (Apple silicon and Intel)
+- Signed with Developer ID and notarized by Apple
+- The menus are in Japanese
 
-- macOS 12 Monterey 以降（Apple シリコン、Intel） / macOS 12 Monterey or later (Apple silicon and Intel)
-- Developer ID で署名し、Apple の公証を受けています / Signed with Developer ID and notarized by Apple
+## Controls
 
-## 操作 / Controls
-
-| 操作 | 動き |
+| Gesture | What it does |
 | --- | --- |
-| 1 本指ドラッグ / 2 本指ドラッグ | ウィンドウを動かす（画面より大きいときは中の画像を動かす） |
-| 2 本指ピンチ | 拡大縮小（ウィンドウも追従） |
-| 2 本指回転 | 回転（90° 付近で吸着） |
-| マウスホイール | 拡大縮小 |
-| Shift + ホイール | 5° ずつ回転 |
-| ダブルクリック | 回転と拡大をリセット |
-| 右クリック（2 本指タップ） | メニュー |
-| ← / → | 同じフォルダの前後の画像 |
+| Drag with one or two fingers | Move the window (or pan the image when it is larger than the screen) |
+| Pinch | Zoom; the window follows |
+| Rotate with two fingers | Rotate; snaps near 90° |
+| Mouse wheel | Zoom |
+| Shift + wheel | Rotate in 5° steps |
+| Double-click | Reset rotation and zoom |
+| Right-click (two-finger tap) | Menu |
+| ← / → | Previous / next image in the same folder |
 
-そのほかの機能:
+Also:
 
-- タイトルバーを隠すモード
-- アルファチャンネルのある画像や回転時の余白は、ウィンドウも透過（透明部分へのクリックは後ろのウィンドウに届きます）
-- 開いたときに画面に合わせて最大化するか、画像のサイズを優先するかを選べます
-- 画像の既定アプリを、形式を選んでまとめて Mirue に切り替え / 元に戻せます（「Mirue」メニュー）
+- A mode that hides the title bar
+- Images with an alpha channel, and the margins of a rotated image, make the window itself see-through; clicks
+  on the transparent parts go to the window behind
+- Open images either as large as the screen allows, or at their own size
+- Make Mirue the default app for the image formats you choose, in one step, and switch back (the Mirue menu)
 
-## 対応形式 / Formats
+## Formats
 
-PNG、JPEG、GIF、WebP、HEIC、AVIF、TIFF、BMP、ICO、ICNS、JPEG 2000、TGA、PSD、各社 RAW、SVG など、
-macOS が読める画像全般。GIF・APNG・WebP のアニメーションも再生します。
+Anything macOS can read: PNG, JPEG, GIF, WebP, HEIC, AVIF, TIFF, BMP, ICO, ICNS, JPEG 2000, TGA, PSD, camera RAW,
+SVG and more. Animated GIF, APNG and WebP play.
 
-## 使用許諾・免責事項・プライバシー / Terms, disclaimer and privacy
-
-Mirue は無料でダウンロードして使えます。オープンソースではありません: © 2026 Ultrawarp, all rights reserved.
-
-- **使用許諾**: [TERMS.md](TERMS.md) — 使ってよい範囲と、してはいけないこと
-- **免責事項**: Mirue は現状のまま無償で提供され、動作などについての保証はありません。使ったこと、使えなかったことによる損害（データの消失を含みます）について、作者は責任を負いません。詳しくは使用許諾の第5条・第6条をご覧ください
-- **プライバシーポリシー**: [PRIVACY.md](PRIVACY.md) — 個人情報は集めず、外部とも通信しません
+## Terms, disclaimer and privacy
 
 Mirue is free to download and use. It is not open source: © 2026 Ultrawarp, all rights reserved.
 
@@ -63,11 +53,10 @@ Mirue is free to download and use. It is not open source: © 2026 Ultrawarp, all
 - **Privacy policy**: [PRIVACY.en.md](PRIVACY.en.md) — no personal information is collected, and the app does not
   use the network
 
-[LICENSE.md](LICENSE.md) は使用許諾の要約です / summarises the licence terms.
+[LICENSE.md](LICENSE.md) summarises the licence terms.
 
-## お問い合わせ / Contact
+## Contact
 
 support@ultrawarp.jp
 
-このリポジトリは配布専用で、ソースコードは含みません。
 This repository is for distribution only and does not contain source code.
