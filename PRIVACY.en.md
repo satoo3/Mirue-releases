@@ -23,7 +23,8 @@ server run by the developer. The App uses no advertising and no analytics.
 
 ## Network
 
-The App does not communicate over the network.
+The App does not communicate over the network. Only when you click a link in the "About Mirue" window does
+it open the licence terms or this privacy policy in your browser.
 
 ## Downloads
 
