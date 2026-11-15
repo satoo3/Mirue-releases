@@ -26,12 +26,14 @@ as you pinch and rotate. Free.
 | Mouse wheel | Zoom |
 | Shift + wheel | Rotate in 5° steps |
 | Double-click | Reset rotation and zoom |
+| Esc | Close the image |
 | Right-click (two-finger tap) | Menu |
 | ← / → | Previous / next image in the same folder |
 
 Also:
 
 - A mode that hides the title bar
+- A small puff of smoke when you close an image (can be turned off)
 - Images with an alpha channel, and the margins of a rotated image, make the window itself see-through; clicks
   on the transparent parts go to the window behind
 - Open images either as large as the screen allows, or at their own size
