@@ -33,6 +33,7 @@ as you pinch and rotate. Free.
 Also:
 
 - A mode that hides the title bar
+- Save the open image in another format: PNG, JPEG, HEIC, TIFF, GIF, BMP or JPEG 2000 (File > 別の形式で書き出す…, ⌘⇧S)
 - A small puff of smoke when you close an image (can be turned off)
 - Images with an alpha channel, and the margins of a rotated image, make the window itself see-through; clicks
   on the transparent parts go to the window behind
